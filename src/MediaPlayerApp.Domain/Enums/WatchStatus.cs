@@ -3,4 +3,7 @@ namespace MediaPlayerApp.Domain.Enums;
 
 public enum WatchStatus
 {
+    NotStarted,
+    InProgress,
+    Completed
 }
