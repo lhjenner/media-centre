@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\MediaPlayerApp.Domain\MediaPlayerApp.Domain.csproj" />
+    <ProjectReference Include="..\MediaPlayerApp.Application\MediaPlayerApp.Application.csproj" />
+    <ProjectReference Include="..\MediaPlayerApp.Infrastructure\MediaPlayerApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\MediaPlayerApp.Common\MediaPlayerApp.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LibVLCSharp.WPF" Version="3.10.1" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+</Project>
