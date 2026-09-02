@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MediaPlayerApp.Domain\MediaPlayerApp.Domain.csproj" />
+    <ProjectReference Include="..\MediaPlayerApp.Common\MediaPlayerApp.Common.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
